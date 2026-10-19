@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Macrocephalon Services & Technologies<sup>™</sup></h1>
-<p align="center"><em>A brand of Macrocephalon Private Limited</em></p>
+<p align="center"><strong>Macrocephalon Private Limited</strong><br />CIN: U71100PN2026PTC260301</p>
 
 <p align="center">
   <strong>Engineering the Future - From Code to Circuit</strong>
