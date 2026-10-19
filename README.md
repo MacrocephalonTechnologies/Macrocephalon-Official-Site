@@ -3,6 +3,7 @@
 </p>
 
 <h1 align="center">Macrocephalon Services & Technologies<sup>™</sup></h1>
+<p align="center"><em>A brand of Macrocephalon Private Limited</em></p>
 
 <p align="center">
   <strong>Engineering the Future - From Code to Circuit</strong>
@@ -27,7 +28,7 @@
 
 ## Overview
 
-Macrocephalon Services & Technologies is a multidisciplinary technology organization focused on software development, AI solutions, engineering projects, research support, and product innovation.
+Macrocephalon Private Limited (CIN: U71100PN2026PTC260301) is a multidisciplinary technology company, incorporated on 14 September 2026 under the Companies Act, 2013, focused on software development, AI solutions, engineering projects, research support, and product innovation.
 
 This repository contains the official company website built with Next.js, React, TypeScript, Tailwind CSS, and a custom dark technical visual system inspired by circuits, AI neurons, embers, and engineering interfaces.
 
@@ -110,11 +111,11 @@ styles/              Additional styling resources
 
 ## Trademark & Usage Notice
 
-Macrocephalon, Macrocephalon Services & Technologies, the company logo, brand identity, visual design language, and related marks are trademarks applied for by Macrocephalon Services & Technologies.
+Macrocephalon, Macrocephalon Services & Technologies, the company logo, brand identity, visual design language, and related marks are trademarks applied for by Macrocephalon Private Limited.
 
 This repository is public only for website deployment, company visibility, and portfolio presentation. Public access does not grant permission to copy, reuse, redistribute, modify, publish, commercialize, or derive work from any source code, data, written content, service structure, UI design, images, graphics, logo, branding, or visual assets in this repository.
 
-All rights are reserved unless written permission is granted by Macrocephalon Services & Technologies.
+All rights are reserved unless written permission is granted by Macrocephalon Private Limited.
 
 ## Contact
 
@@ -123,12 +124,15 @@ All rights are reserved unless written permission is granted by Macrocephalon Se
 - LinkedIn: https://www.linkedin.com/company/macrocephalon/
 - Email: support@macrocephalon.com
 - Email: admin@macrocephalon.com
-- Location: India
+- Registered Office: Jath, Sangli, Maharashtra, India
+- CIN: U71100PN2026PTC260301
 
 ---
 
 <p align="center">
-  <strong>Macrocephalon Services & Technologies<sup>&trade;</sup></strong><br />
+  <strong>Macrocephalon Services &amp; Technologies<sup>&trade;</sup></strong><br />
+  Macrocephalon Private Limited<br />
+  CIN: U71100PN2026PTC260301<br />
   Software. AI. Engineering. Research.<br />
-  Copyright 2026 Macrocephalon Services & Technologies. All rights reserved.
+  Copyright 2026 Macrocephalon Private Limited. All rights reserved.
 </p>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Macrocephalon Services & Technologies | AI, Software & Engineering Solutions',
-  description: 'Macrocephalon Services & Technologies delivers AI solutions, software development, web applications, embedded systems, IoT technologies, MATLAB solutions, engineering projects, research support, and technology consulting services.',
+  description: 'Macrocephalon Services & Technologies (Macrocephalon Private Limited) delivers AI solutions, software development, web applications, embedded systems, IoT technologies, MATLAB solutions, engineering projects, research support, and technology consulting services.',
   keywords: [
     'AI Solutions',
     'Software Development',
@@ -16,16 +16,16 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Macrocephalon Services & Technologies | AI, Software & Engineering Solutions',
-    description: 'Macrocephalon Services & Technologies delivers AI solutions, software development, web applications, embedded systems, IoT technologies, MATLAB solutions, engineering projects, research support, and technology consulting services.',
+    description: 'Macrocephalon Services & Technologies (Macrocephalon Private Limited) delivers AI solutions, software development, web applications, embedded systems, IoT technologies, MATLAB solutions, engineering projects, research support, and technology consulting services.',
     url: 'https://www.macrocephalon.com/',
-    siteName: 'Macrocephalon',
+    siteName: 'Macrocephalon Private Limited',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Macrocephalon Services & Technologies | AI, Software & Engineering Solutions',
-    description: 'Macrocephalon Services & Technologies delivers AI solutions, software development, web applications, embedded systems, IoT technologies, MATLAB solutions, engineering projects, research support, and technology consulting services.',
+    description: 'Macrocephalon Services & Technologies (Macrocephalon Private Limited) delivers AI solutions, software development, web applications, embedded systems, IoT technologies, MATLAB solutions, engineering projects, research support, and technology consulting services.',
   },
   alternates: {
     canonical: 'https://www.macrocephalon.com/',

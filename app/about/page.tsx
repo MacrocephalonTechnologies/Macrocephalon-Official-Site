@@ -2,11 +2,12 @@ import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Section } from '@/components/section';
 import { PageHeader } from '@/components/page-header';
-import { Code2, Brain, Wrench, Target, Heart, Zap } from 'lucide-react';
+import { Code2, Brain, Wrench, Target, Heart, Zap, Building2 } from 'lucide-react';
+import { company } from '@/lib/company';
 
 export const metadata: Metadata = {
-  title: 'About Macrocephalon | Technology, AI & Engineering Company',
-  description: 'Learn about Macrocephalon Services & Technologies, a technology-focused company specializing in AI solutions, software engineering, embedded systems, engineering innovation, research support, and consulting services.',
+  title: 'About Macrocephalon Private Limited | Technology, AI & Engineering Company',
+  description: 'Learn about Macrocephalon Private Limited, a technology-focused company specializing in AI solutions, software engineering, embedded systems, engineering innovation, research support, and consulting services.',
   keywords: [
     'About Macrocephalon',
     'Technology Company',
@@ -16,17 +17,17 @@ export const metadata: Metadata = {
     'Engineering Innovation',
   ],
   openGraph: {
-    title: 'About Macrocephalon | Technology, AI & Engineering Company',
-    description: 'Learn about Macrocephalon Services & Technologies, a technology-focused company specializing in AI solutions, software engineering, embedded systems, engineering innovation, research support, and consulting services.',
+    title: 'About Macrocephalon Private Limited | Technology, AI & Engineering Company',
+    description: 'Learn about Macrocephalon Private Limited, a technology-focused company specializing in AI solutions, software engineering, embedded systems, engineering innovation, research support, and consulting services.',
     url: 'https://www.macrocephalon.com/about',
-    siteName: 'Macrocephalon',
+    siteName: 'Macrocephalon Private Limited',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Macrocephalon | Technology, AI & Engineering Company',
-    description: 'Learn about Macrocephalon Services & Technologies, a technology-focused company specializing in AI solutions, software engineering, embedded systems, engineering innovation, research support, and consulting services.',
+    title: 'About Macrocephalon Private Limited | Technology, AI & Engineering Company',
+    description: 'Learn about Macrocephalon Private Limited, a technology-focused company specializing in AI solutions, software engineering, embedded systems, engineering innovation, research support, and consulting services.',
   },
   alternates: {
     canonical: 'https://www.macrocephalon.com/about',
@@ -37,12 +38,12 @@ export default function About() {
   return (
     <>
       <PageHeader
-        title="About Macrocephalon"
+        title="About Macrocephalon Private Limited"
         description="Bridging cutting-edge technology with practical implementation across software, AI, and engineering."
       >
         <div className="max-w-3xl mt-6 space-y-4">
           <p className="text-muted-foreground leading-relaxed">
-            Macrocephalon is a technology-focused private firm delivering high-quality technical services across multiple specialized divisions. Founded on the principle that cutting-edge technology should be accessible — from Fortune 500 firms to engineering students — we bridge the gap between innovation and implementation.
+            {company.legalName} is a technology-focused private limited company, incorporated on {company.incorporationDateLabel} under the Companies Act, 2013, delivering high-quality technical services across multiple specialized divisions. Founded on the principle that cutting-edge technology should be accessible — from Fortune 500 firms to engineering students — we bridge the gap between innovation and implementation.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             Today, we operate three active divisions with proven expertise in software development, artificial intelligence, and end-to-end engineering project execution. We serve students, startups, private firms, and established enterprises, delivering solutions that meet the highest quality standards while remaining accessible at every scale.
@@ -202,6 +203,42 @@ export default function About() {
             </div>
           ))}
         </div>
+      </Section>
+
+      {/* Company Information */}
+      <Section className="border-t-2 border-[#9B8B7E] pt-16">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Company Information</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            Registered with the Ministry of Corporate Affairs, Government of India.
+          </p>
+        </div>
+
+        <Card className="bg-white border-2 border-[#D4CCBF] shadow-md max-w-3xl mx-auto">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Building2 className="w-5 h-5 text-[#D4A574]" />
+              {company.legalName}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <dl className="divide-y divide-[#D4CCBF] text-sm">
+              {[
+                ['Legal Name', company.legalName],
+                ['Corporate Identity Number (CIN)', company.cin],
+                ['Date of Incorporation', company.incorporationDateLabel],
+                ['Company Type', company.companyType],
+                ['Registrar', company.registrar],
+                ['Registered Office', company.registeredOffice],
+              ].map(([label, value]) => (
+                <div key={label} className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-[14rem_1fr] sm:gap-4">
+                  <dt className="font-semibold text-foreground">{label}</dt>
+                  <dd className="text-muted-foreground break-words">{value}</dd>
+                </div>
+              ))}
+            </dl>
+          </CardContent>
+        </Card>
       </Section>
 
       {/* Engineering Branches */}

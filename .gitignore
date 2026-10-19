@@ -25,3 +25,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# confidential company documents (contain PAN/TAN)
+/company_docs/

@@ -8,7 +8,7 @@ import { ArrowRight, Brain, Code2, Wrench } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Technology Services | AI, Software, Embedded Systems & Consulting',
-  description: 'Explore Macrocephalon services including AI development, software solutions, web applications, embedded systems, IoT solutions, MATLAB programming, research assistance, and technology consulting.',
+  description: 'Explore Macrocephalon Private Limited services including AI development, software solutions, web applications, embedded systems, IoT solutions, MATLAB programming, research assistance, and technology consulting.',
   keywords: [
     'AI Development',
     'Software Services',
@@ -20,16 +20,16 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Technology Services | AI, Software, Embedded Systems & Consulting',
-    description: 'Explore Macrocephalon services including AI development, software solutions, web applications, embedded systems, IoT solutions, MATLAB programming, research assistance, and technology consulting.',
+    description: 'Explore Macrocephalon Private Limited services including AI development, software solutions, web applications, embedded systems, IoT solutions, MATLAB programming, research assistance, and technology consulting.',
     url: 'https://www.macrocephalon.com/services',
-    siteName: 'Macrocephalon',
+    siteName: 'Macrocephalon Private Limited',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Technology Services | AI, Software, Embedded Systems & Consulting',
-    description: 'Explore Macrocephalon services including AI development, software solutions, web applications, embedded systems, IoT solutions, MATLAB programming, research assistance, and technology consulting.',
+    description: 'Explore Macrocephalon Private Limited services including AI development, software solutions, web applications, embedded systems, IoT solutions, MATLAB programming, research assistance, and technology consulting.',
   },
   alternates: {
     canonical: 'https://www.macrocephalon.com/services',

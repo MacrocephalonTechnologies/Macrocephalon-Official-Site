@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Github, Linkedin, Twitter, Facebook, Instagram, Youtube, Globe } from 'lucide-react';
+import { company } from '@/lib/company';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,9 +11,14 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-sm font-semibold text-white mb-4">Macrocephalon</h3>
+            <h3 className="text-sm font-semibold text-white mb-4">Macrocephalon Services &amp; Technologies</h3>
             <p className="text-sm text-white">
-              Services & Technologies for enterprise innovation and excellence.
+              Software, AI &amp; engineering services for enterprise innovation and excellence.
+            </p>
+            <p className="mt-3 text-xs text-white/70">
+              A brand of {company.legalName}
+              <br />
+              CIN: {company.cin}
             </p>
           </div>
 
@@ -132,7 +138,7 @@ export function Footer() {
         <div className="border-t border-[#D4CCBF] pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-xs text-white">
-              &copy; {currentYear} Macrocephalon Services & Technologies. All rights reserved.
+              &copy; {currentYear} {company.legalName}. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a

@@ -7,7 +7,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent } from '@/components/ui/card';
 import { Section } from '@/components/section';
 import { PageHeader } from '@/components/page-header';
-import { Check, Clock, Mail, MapPin, Send } from 'lucide-react';
+import { Building2, Check, Clock, Mail, MapPin, Send } from 'lucide-react';
+import { company } from '@/lib/company';
 
 const serviceOptions = [
   'Web Development',
@@ -138,6 +139,12 @@ export default function Contact() {
                 icon: MapPin,
                 label: 'Office',
                 value: 'Jaysingpur, Near Shivpark Colony - 416101, Maharashtra, India',
+                href: '#',
+              },
+              {
+                icon: Building2,
+                label: 'Registered Office',
+                value: `${company.legalName}, ${company.registeredOffice} (CIN: ${company.cin})`,
                 href: '#',
               },
               {

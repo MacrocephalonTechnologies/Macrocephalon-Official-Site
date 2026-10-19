@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { company } from '@/lib/company';
 
 interface Particle {
   id: number;
@@ -150,6 +151,12 @@ export function HeroSection() {
               </h1>
               <p className="mt-4 max-w-3xl text-base font-medium text-muted-foreground sm:text-lg lg:text-xl">
                 Project visuals across software, AI, hardware, IoT, and research engineering.
+              </p>
+              <p className="mt-3 text-xs font-semibold text-[#1F2937] sm:text-sm">
+                MACROCEPHALON Private Limited Company
+                <span className="block font-normal text-muted-foreground sm:inline sm:before:content-['_·_']">
+                  CIN: {company.cin}
+                </span>
               </p>
             </div>
             <p className="break-words text-sm font-bold uppercase tracking-[0.12em] text-[#D4A574] sm:text-base sm:tracking-[0.18em]">

@@ -4,7 +4,7 @@ import { Section } from '@/components/section';
 import { PageHeader } from '@/components/page-header';
 
 export const metadata: Metadata = {
-  title: 'Academic & Research Support Services | Macrocephalon',
+  title: 'Academic & Research Support Services | Macrocephalon Pvt Ltd',
   description: 'Professional academic support including engineering projects, MATLAB development, research assistance, simulations, technical documentation, and innovation consulting.',
   keywords: [
     'Academic Projects',
@@ -15,16 +15,16 @@ export const metadata: Metadata = {
     'Technical Documentation',
   ],
   openGraph: {
-    title: 'Academic & Research Support Services | Macrocephalon',
+    title: 'Academic & Research Support Services | Macrocephalon Pvt Ltd',
     description: 'Professional academic support including engineering projects, MATLAB development, research assistance, simulations, technical documentation, and innovation consulting.',
     url: 'https://www.macrocephalon.com/academic',
-    siteName: 'Macrocephalon',
+    siteName: 'Macrocephalon Private Limited',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Academic & Research Support Services | Macrocephalon',
+    title: 'Academic & Research Support Services | Macrocephalon Pvt Ltd',
     description: 'Professional academic support including engineering projects, MATLAB development, research assistance, simulations, technical documentation, and innovation consulting.',
   },
   alternates: {
