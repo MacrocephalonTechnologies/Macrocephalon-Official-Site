@@ -16,7 +16,7 @@ export function Footer() {
               Software, AI &amp; engineering services for enterprise innovation and excellence.
             </p>
             <p className="mt-3 text-xs text-white/70">
-              A brand of {company.legalName}
+              {company.legalName}
               <br />
               CIN: {company.cin}
             </p>
