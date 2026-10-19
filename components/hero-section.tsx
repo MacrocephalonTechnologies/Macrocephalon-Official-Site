@@ -134,6 +134,9 @@ export function HeroSection() {
         <div className="mt-3 text-[0.62rem] font-bold uppercase tracking-[0.14em] text-[#D4A574] sm:text-base sm:tracking-[0.42em] lg:text-lg">
           Services &amp; Technologies
         </div>
+        <div className="mt-2 text-[0.55rem] font-semibold uppercase tracking-[0.14em] text-[#1F2937] sm:mt-3 sm:text-xs sm:tracking-[0.3em] lg:text-sm">
+          {company.legalName}
+        </div>
       </Link>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10 space-y-4 sm:space-y-8">
@@ -151,14 +154,7 @@ export function HeroSection() {
               </h1>
               <p className="mt-4 max-w-3xl text-base font-medium text-muted-foreground sm:text-lg lg:text-xl">
                 Project visuals across software, AI, hardware, IoT, and research engineering.
-              </p>
-              <p className="mt-3 text-xs font-semibold text-[#1F2937] sm:text-sm">
-                MACROCEPHALON Private Limited Company
-                <span className="block font-normal text-muted-foreground sm:inline sm:before:content-['_·_']">
-                  CIN: {company.cin}
-                </span>
-              </p>
-            </div>
+              </p>            </div>
             <p className="break-words text-sm font-bold uppercase tracking-[0.12em] text-[#D4A574] sm:text-base sm:tracking-[0.18em]">
               Software Development &middot; AI Solutions &middot; Engineering Projects
             </p>
