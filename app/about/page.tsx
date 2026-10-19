@@ -230,10 +230,18 @@ export default function About() {
                 ['Company Type', company.companyType],
                 ['Registrar', company.registrar],
                 ['Registered Office', company.registeredOffice],
-              ].map(([label, value]) => (
+                ['Company Email', company.companyEmail, `mailto:${company.companyEmail}`],
+                ['Support Email', company.supportEmail, `mailto:${company.supportEmail}`],
+              ].map(([label, value, href]) => (
                 <div key={label} className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-[14rem_1fr] sm:gap-4">
                   <dt className="font-semibold text-foreground">{label}</dt>
-                  <dd className="text-muted-foreground break-words">{value}</dd>
+                  <dd className="text-muted-foreground break-words">
+                    {href ? (
+                      <a href={href} className="hover:text-[#D4A574] transition-colors">{value}</a>
+                    ) : (
+                      value
+                    )}
+                  </dd>
                 </div>
               ))}
             </dl>

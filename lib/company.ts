@@ -10,4 +10,6 @@ export const company = {
   registrar: 'Registrar of Companies, Pune',
   companyType: 'Private company limited by shares',
   registeredOffice: '6/18, Ambedkar Nagar, Dafalapur, Jath, Sangli - 416402, Maharashtra, India',
+  companyEmail: 'admin@macrocephalon.com',
+  supportEmail: 'support@macrocephalon.com',
 } as const;
